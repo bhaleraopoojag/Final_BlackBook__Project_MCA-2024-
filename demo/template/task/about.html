@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+{% extends 'base.html'%}
+{% load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+    </style>
+</head>
+<body>
+{% block baseblock%}
+<div class="container-fluid">
+<div class="container">
+    <h1>About Us</h1>
+    <pre style="align-text:center;">House price prediction websites provide estimated values of properties based on
+        various factors such as location, size, age, and condition. These websites use
+        algorithms and historical data to make predictions about the future value of a house.
+        Some popular house price prediction websites include Zillow, Trulia, and Redfin.
+        These websites can be helpful for home buyers, sellers, and real estate agents to
+        better understand the value of a property and make informed decisions.
+        It's important to note that house price prediction is not an exact science and
+        the estimated values may vary from the actual prices.</pre>
+<!--<pre style="width:100%;"><img src="{%static 'images/aboutlogo.jpg'%}"></pre>-->
+</div>
+
+
+
+
+    <div class="container">
+  <div class="row">
+      <div class="col"><img src="{% static 'images/aboutus_img/about1.jpg' %}"></div>
+      <div class="col"><img src="{% static 'images/aboutus_img/about2.jpg' %}"></div>
+    <div class="col"><img src="{% static 'images/aboutus_img/about3.jpg' %}"></div>
+    <div class="col"><img src="{% static 'images/aboutus_img/about4.jpg' %}"></div>
+    <div class="col"><img src="{% static 'images/aboutus_img/about5.jpg' %}"></div>
+    <div class="col"><img src="{% static 'images/aboutus_img/about7.jpg' %}"></div>
+    <div class="col"><img src="{% static 'images/aboutus_img/about7.jpg' %}"></div>
+    <div class="col"><img src="{% static 'images/aboutus_img/about8.jpg' %}"></div>
+  </div>
+    </div>
+    </div>
+
+{%endblock%}
+</body>
+</html>
